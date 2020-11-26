@@ -118,7 +118,9 @@ fun assertEquals(expected:Any?, actual:Any?) {
     TestUtils.assertEqual(expected, actual)
 }
 
-
+fun assertNotEquals(expected:Double, actual:Double) {
+    TestUtils.assertNotEqual(expected, actual);
+}
 
 fun assertNotEquals(expected:Any?, actual:Any?) {
     TestUtils.assertNotEqual(expected, actual)
