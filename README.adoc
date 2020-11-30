@@ -1,0 +1,27 @@
+= Codename One Kotlin Unit Tests
+
+This project provides a subset of the Kotlin Stdlib unit tests, adapated to be run inside a Codename One test runner.  The goal of this project is to ensure correct functioning of Kotlin code run on Codename One.
+
+Unit tests are adapted from the Kotlin stdlib github repository.
+
+== Running the Unit Tests on Simulator
+
+1. Open the project in IntelliJ
+2. Run the project in simulator.
+3. Click "Run Tests" button in the app when it opens in the simulator.
+
+== Running the Unit Tests on Device
+
+1. Open the project in IntelliJ
+2. Select the appropriate build option in the "Codename One" menu.  E.g. Send iOS Debug Build
+3. Install the app on your device, and open it.
+4. Click "Run Tests" button in the app when it opens.
+
+== Credits
+
+- Created by https://sjhannah.com[Steve Hannah], https://www.codenameone.com[Codename One]
+
+== References
+
+. https://www.codenameone.com[Codename One Website]
+. https://github.com/jetbrains/kotlin[Kotlin Github Repository]
